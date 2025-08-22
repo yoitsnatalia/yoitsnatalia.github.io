@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+:root {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 5em;
+  line-height: 1.1;
+  
+}
+
+h2 {
+  font-size: 1.5em;
+  line-height: 1.1;
+}
+
+ul {
+  font-size: 2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 2em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #000342;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  @apply flex flex-row items-center mt-10 text-black bg-[#D7EEFE] rounded-xl hover:shadow-md transition p-6 mb-6 
+}
+
+.header {
+  @apply flex fixed flex-row w-full h-32 pt-10 items-baseline  backdrop-blur-3xl z-50
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #E6F4FD;
+    
+  }
+  
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+  .card {
+    @apply flex flex-row mt-10 bg-[#ffffff] text-black rounded-xl hover:shadow-md transition p-6 mb-6 border border-blue-900
+  }
+}
