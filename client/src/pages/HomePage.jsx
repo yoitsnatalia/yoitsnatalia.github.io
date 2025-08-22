@@ -1,18 +1,23 @@
 import ProjectCard from '../components/ProjectCard'
 import projects from '../projectsData'
 
-export default function HomePage() {
+export default function HomePage({setPage}) {
     return (
         <div className="flex flex-row flex-grow pt-26">
           {/* Sidebar / Tabs */}
           <div className="w-1/5 pt-25 flex justify-start">
             <ul className="fixed space-y-8">
-            <li className="hover:text-gray-300 cursor-pointer">all</li>
+              <li className="hover:text-gray-300 cursor-pointer">/all projects/</li>
               <li className="hover:text-gray-300 cursor-pointer">full stack</li>
               <li className="hover:text-gray-300 cursor-pointer">hardware</li>
               <li className="hover:text-gray-300 cursor-pointer">game dev</li>
               <li className="hover:text-gray-300 cursor-pointer">design</li>
+              <h3>::</h3>
+              <li className="hover:text-gray-300 cursor-pointer">resume</li>
+              <li className="hover:text-gray-300 cursor-pointer">linkedin</li>
+              <li className="hover:text-gray-300 cursor-pointer">github</li>
             </ul>
+            
           </div>
 
           {/* Scrollable Content */}
@@ -23,6 +28,7 @@ export default function HomePage() {
                 title={project.title}
                 description={project.description}
                 image={project.image}
+                onClick={() => setPage(project.page)}
               />
             ))}
           </div>

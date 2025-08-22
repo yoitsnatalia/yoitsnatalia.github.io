@@ -4,7 +4,7 @@ import HomePage from './pages/HomePage'
 import GemsPage from './pages/GemsPage'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [page, setPage] = useState('home')
 
   return (
     <div className="flex w-screen h-screen">
@@ -14,9 +14,9 @@ function App() {
             <h2 className="italic">Software Engineer & Creative</h2>
         </header>
         
-        {/* <GemsPage /> */}
+        { page === 'gems' && <GemsPage setPage={setPage}/> }
         
-        <HomePage />
+        { page === 'home' && <HomePage setPage={setPage}/> }
       </div>
     </div>
   )

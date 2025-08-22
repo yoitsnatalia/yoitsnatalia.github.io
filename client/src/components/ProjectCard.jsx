@@ -1,6 +1,6 @@
-export default function ProjectCard({ title, description, image }) {
+export default function ProjectCard({ title, description, image, onClick }) {
     return (
-      <div className="card">
+      <div className="card" onClick={onClick}>
         <div className="mr-20">
           {image && (
             <img

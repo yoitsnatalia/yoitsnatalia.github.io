@@ -1,12 +1,12 @@
 import FigmaSlides from "../components/FigmaSlides"
 
 
-export default function GemsPage() {
+export default function GemsPage({setPage}) {
     return (
-        <div className="flex flex-col mt-35 pt-15 px-40 pb-30 overflow-y-scroll bg-[#D7EEFE] rounded-xl">
+        <div className="page">
             <div className="flex flex-row items-baseline justify-between mb-5">
                 <h1>Gems</h1>
-                <h2 className="px-6">back</h2>
+                <h2 className="px-6 cursor-pointer hover:underline" onClick={() => setPage('home')}>back</h2>
             </div>
             <h3 className="px-1">slides to learn more // scroll for links</h3>
             <FigmaSlides />

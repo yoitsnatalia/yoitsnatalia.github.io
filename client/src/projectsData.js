@@ -2,6 +2,7 @@ import gems from './assets/gems5.png'
 const projects = [
     {
       title: "Gems",
+      page: 'gems',
       description:
         "full stack // react.js, node.js, postgresql",
       image:
@@ -9,6 +10,7 @@ const projects = [
     },
     {
         title: "ClubHub",
+        page: 'clubhub',
         description:
           "full stack // react.js, node.js, postgresql",
         image:
@@ -16,6 +18,7 @@ const projects = [
     },
     {
         title: "Eye Mech",
+        page: 'eyemech',
         description:
           "animatronics // react.js, node.js, postgresql",
         image:
@@ -23,6 +26,7 @@ const projects = [
     },
     {
         title: "Ukulele",
+        page: 'ukulele',
         description:
           "full stack // react.js, node.js, postgresql",
         image:
@@ -30,6 +34,7 @@ const projects = [
     },
     {
         title: "Croptails",
+        page: 'croptails',
         description:
           "full stack // react.js, node.js, postgresql",
         image:
@@ -37,6 +42,7 @@ const projects = [
     },
     {
         title: "Life",
+        page: 'life',
         description:
           "full stack // react.js, node.js, postgresql",
         image:
@@ -44,6 +50,7 @@ const projects = [
     },
     {
         title: "Portfolio",
+        page: 'portfolio',
         description:
           "full stack // react.js, node.js, postgresql",
         image:
@@ -51,6 +58,7 @@ const projects = [
     },
     {
         title: "Portfoliov1",
+        page: 'portfoliov1',
         description:
           "full stack // react.js, node.js, postgresql",
         image:
@@ -58,6 +66,7 @@ const projects = [
     },
     {
         title: "Automata",
+        page: 'automata',
         description:
           "full stack // react.js, node.js, postgresql",
         image:

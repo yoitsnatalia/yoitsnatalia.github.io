@@ -58,6 +58,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  color:#f9f9f9
 }
 button:hover {
   border-color: #000342;
@@ -68,11 +69,15 @@ button:focus-visible {
 }
 
 .card {
-  @apply flex flex-row items-center mt-10 text-black bg-[#D7EEFE] rounded-xl hover:shadow-md transition p-6 mb-6 
+  @apply flex flex-row items-center mt-10 text-black bg-indigo-100 rounded-xl hover:shadow-md transition p-6 mb-6 
+}
+
+.page {
+  @apply flex flex-col mt-35 pt-15 px-40 pb-30 overflow-y-scroll bg-indigo-100 rounded-xl text-black
 }
 
 .header {
-  @apply flex fixed flex-row w-full h-32 pt-10 items-baseline  backdrop-blur-3xl z-50
+  @apply flex fixed flex-row w-full h-32 pt-10 items-baseline backdrop-blur-3xl z-50
 }
 
 @media (prefers-color-scheme: light) {
@@ -81,14 +86,17 @@ button:focus-visible {
     background-color: #E6F4FD;
     
   }
-  
   a:hover {
     color: #747bff;
   }
   button {
     background-color: #f9f9f9;
+    color:#000342;
   }
   .card {
-    @apply flex flex-row mt-10 bg-[#ffffff] text-black rounded-xl hover:shadow-md transition p-6 mb-6 border border-blue-900
+    @apply flex cursor-pointer flex-row mt-10 bg-[#ffffff] text-black rounded-xl hover:shadow-md transition p-6 mb-6 border border-blue-900
+  }
+  .page {
+    @apply bg-[#D7EEFE] text-black
   }
 }
