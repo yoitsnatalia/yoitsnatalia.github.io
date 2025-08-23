@@ -1,4 +1,5 @@
-import gems from './assets/gems5.png'
+import gems from './assets/gems.png'
+
 const projects = [
     {
       title: "Gems",
