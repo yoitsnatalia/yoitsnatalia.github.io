@@ -11,8 +11,8 @@ export default function ClubHubPage({setPage}) {
             <h3 className="px-1 pb-5 text-xl italic self-center">A one-stop shop for Stanford students to easily discover and join campus communities and events anytime, all year long.</h3>
             <ClubHubSlides/>
             <div className="flex justify-center md:mt-5">
-                <a className="mr-5 md:mr-10" href="https://devpost.com/software/clubhub-98zmpo" target="_blank">Devpost</a>
-                <a href="https://github.com/UnknownEclipse/treehacks-2024" target="_blank">GitHub Repo</a>
+                <a className="link mr-5 md:mr-10" href="https://devpost.com/software/clubhub-98zmpo" target="_blank">Devpost</a>
+                <a className="link" href="https://github.com/UnknownEclipse/treehacks-2024" target="_blank">GitHub Repo</a>
             </div>   
         </div>
     )

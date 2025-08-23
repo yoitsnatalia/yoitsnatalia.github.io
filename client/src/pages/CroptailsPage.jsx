@@ -14,8 +14,8 @@ export default function CroptailsPage({setPage}) {
             <h3 className="px-1 pb-2 text-lg self-center">Godot scripting (GDScript), tilemaps, character & npc movement, animation systems, day/night cycles, inventory management, and save/load systems.</h3>
             <CroptailsEmbed/>
             <div className="flex justify-center md:mt-5">
-                <a className="mr-5 md:mr-10" href="https://yoitsnatalia.itch.io/croptails" target="_blank">Itch.io Page</a>
-                <a href="https://youtu.be/it0lsREGdmc?si=HwpDNgWQamjdxmAF" target="_blank">Tutorial</a>
+                <a className="link mr-5 md:mr-10" href="https://yoitsnatalia.itch.io/croptails" target="_blank">Itch.io Page</a>
+                <a className="link" href="https://youtu.be/it0lsREGdmc?si=HwpDNgWQamjdxmAF" target="_blank">Tutorial</a>
             </div> 
         </div>
     )

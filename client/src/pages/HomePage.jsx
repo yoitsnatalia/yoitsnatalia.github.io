@@ -15,9 +15,9 @@ export default function HomePage({setPage, filter, setFilter}) {
               <li className="hover:text-gray-300 cursor-pointer" onClick={() => setFilter('gamedev')}>game dev</li>
               <li className="hover:text-gray-300 cursor-pointer" onClick={() => setFilter('design')}>design</li>
               <h3>::</h3>
-              <li className="hover:text-gray-300 cursor-pointer">resume</li>
-              <li className="hover:text-gray-300 cursor-pointer">linkedin</li>
-              <li className="hover:text-gray-300 cursor-pointer">github</li>
+              <li className="hover:text-gray-300 cursor-pointer"><a href="https://docs.google.com/document/d/1L5rAidN643hqVp2lIfjJgqgKjx3iP93m-bVBR-K6_bE/edit?usp=sharing" target="_blank">resume</a></li>
+              <li className="hover:text-gray-300 cursor-pointer"><a href="https://www.linkedin.com/in/natalia-linn/" target="_blank">linkedin</a></li>
+              <li className="hover:text-gray-300 cursor-pointer"><a href="https://github.com/yoitsnatalia" target="_blank">github</a></li>
             </ul>
             
           </div>

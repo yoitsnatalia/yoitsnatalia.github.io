@@ -47,11 +47,11 @@ button:hover {
   @apply border-white;
 }
 
-a {
+.link {
   @apply rounded-lg border border-transparent px-5 py-2 md:px-10 md:py-5 md:text-[2em] bg-[#1a1a1a] text-[#f9f9f9] cursor-pointer transition-colors duration-200;
 }
 
-a:hover {
+.link:hover {
   @apply border-white;
 }
 
@@ -88,11 +88,11 @@ a:hover {
   button:hover {
     border-color: #000000;
   }
-  a {
+  .link {
     background-color: #ffffff;
     color:#000342;
   }
-  a:hover {
+  .link:hover {
     border-color: #000000;
   }
   .card {

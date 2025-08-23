@@ -57,7 +57,7 @@ const projects = [
     {
         title: "Portfolio",
         page: 'portfolio',
-        category: 'frontend',
+        category: 'fullstack',
         description:
           "frontend // react.js, tailwindcss, vite",
         image:
