@@ -1,4 +1,5 @@
 import gems from './assets/gems.png'
+import clubhub from './assets/clubhub.png'
 
 const projects = [
     {
@@ -9,15 +10,6 @@ const projects = [
         "full stack // react.js, node.js, postgresql",
       image:
         gems
-    },
-    {
-        title: "ClubHub",
-        page: 'clubhub',
-        category: 'fullstack',
-        description:
-          "full stack // react.js, node.js, postgresql",
-        image:
-          gems
     },
     {
         title: "Eye Mech",
@@ -72,6 +64,15 @@ const projects = [
           "full stack // react.js, node.js, postgresql",
         image:
           gems
+    },
+    {
+      title: "ClubHub",
+      page: 'clubhub',
+      category: 'fullstack',
+      description:
+        "full stack // react.js, next.js, rust, axum",
+      image:
+        clubhub
     },
     {
         title: "Automata",
