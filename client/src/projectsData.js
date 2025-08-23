@@ -4,6 +4,7 @@ import ukulele from './assets/ukulele.png'
 import eyemech from './assets/eyemech.png'
 import lifeisgood from './assets/lifeisgood.png'
 import automata from './assets/automata.png'
+import croptails from './assets/croptails.png'
 
 const projects = [
     {
@@ -38,9 +39,9 @@ const projects = [
         page: 'croptails',
         category: 'gamedev',
         description:
-          "full stack // react.js, node.js, postgresql",
+          "game dev // 2d godot",
         image:
-          gems
+          croptails
     },
     {
         title: "Life is Good",

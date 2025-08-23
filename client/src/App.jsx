@@ -7,6 +7,7 @@ import ClubHubPage from './pages/ClubHubPage'
 import UkulelePage from './pages/UkulelePage'
 import LifeIsGoodPage from './pages/LifeIsGoodPage'
 import AutomataPage from './pages/AutomataPage'
+import CroptailsPage from './pages/CroptailsPage'
 
 function App() {
   const [page, setPage] = useState('home');
@@ -31,6 +32,8 @@ function App() {
         { page === 'gems' && <GemsPage setPage={setPage}/> }
 
         { page === 'clubhub' && <ClubHubPage setPage={setPage}/> }
+
+        { page === 'croptails' && <CroptailsPage setPage={setPage}/> }
 
         { page === 'lifeisgood' && <LifeIsGoodPage setPage={setPage}/> }
 
