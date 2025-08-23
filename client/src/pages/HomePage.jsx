@@ -7,7 +7,7 @@ export default function HomePage({setPage, filter, setFilter}) {
     return (
         <div className="flex flex-row flex-grow pt-26">
           {/* Sidebar / Tabs */}
-          <div className="hidden w-1/5 pt-20 md:flex justify-start">
+          <div className="hidden w-1/5 pt-17 md:flex justify-start">
             <ul className="fixed space-y-8">
               <li className="hover:text-gray-300 cursor-pointer" onClick={() => setFilter('all')}>/all projects/</li>
               <li className="hover:text-gray-300 cursor-pointer" onClick={() => setFilter('fullstack')}>full stack</li>
