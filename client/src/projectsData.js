@@ -2,6 +2,7 @@ import gems from './assets/gems.png'
 import clubhub from './assets/clubhub.png'
 import ukulele from './assets/ukulele.png'
 import eyemech from './assets/eyemech.png'
+import lifeisgood from './assets/lifeisgood.png'
 
 const projects = [
     {
@@ -41,13 +42,13 @@ const projects = [
           gems
     },
     {
-        title: "Life",
-        page: 'life',
-        category: 'gamedev',
+        title: "Life is Good",
+        page: 'lifeisgood',
+        category: 'design',
         description:
-          "full stack // react.js, node.js, postgresql",
+          "game design // figma",
         image:
-          gems
+          lifeisgood
     },
     {
         title: "Portfolio",
