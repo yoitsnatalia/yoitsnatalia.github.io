@@ -10,7 +10,7 @@ export default function ProjectCard({ title, description, image, onClick }) {
             />
           )}
         </div>
-        <div className="flex flex-col">
+        <div className="flex flex-col place-self-start md:place-self-auto">
           <h3 className="text-4xl my-3 sm:text-8xl sm:mb-3">{title}</h3>
           <p className="md:ml-2 text-xl">{description}</p>
         </div>
