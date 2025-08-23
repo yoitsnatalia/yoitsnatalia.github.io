@@ -3,6 +3,7 @@ const projects = [
     {
       title: "Gems",
       page: 'gems',
+      category: 'fullstack',
       description:
         "full stack // react.js, node.js, postgresql",
       image:
@@ -11,6 +12,7 @@ const projects = [
     {
         title: "ClubHub",
         page: 'clubhub',
+        category: 'fullstack',
         description:
           "full stack // react.js, node.js, postgresql",
         image:
@@ -19,6 +21,7 @@ const projects = [
     {
         title: "Eye Mech",
         page: 'eyemech',
+        category: 'hardware',
         description:
           "animatronics // react.js, node.js, postgresql",
         image:
@@ -27,6 +30,7 @@ const projects = [
     {
         title: "Ukulele",
         page: 'ukulele',
+        category: 'hardware',
         description:
           "full stack // react.js, node.js, postgresql",
         image:
@@ -35,6 +39,7 @@ const projects = [
     {
         title: "Croptails",
         page: 'croptails',
+        category: 'gamedev',
         description:
           "full stack // react.js, node.js, postgresql",
         image:
@@ -43,6 +48,7 @@ const projects = [
     {
         title: "Life",
         page: 'life',
+        category: 'gamedev',
         description:
           "full stack // react.js, node.js, postgresql",
         image:
@@ -51,6 +57,7 @@ const projects = [
     {
         title: "Portfolio",
         page: 'portfolio',
+        category: 'frontend',
         description:
           "full stack // react.js, node.js, postgresql",
         image:
@@ -59,6 +66,7 @@ const projects = [
     {
         title: "Portfoliov1",
         page: 'portfoliov1',
+        category: 'frontend',
         description:
           "full stack // react.js, node.js, postgresql",
         image:
@@ -67,6 +75,7 @@ const projects = [
     {
         title: "Automata",
         page: 'automata',
+        category: 'design',
         description:
           "full stack // react.js, node.js, postgresql",
         image:
