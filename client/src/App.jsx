@@ -4,6 +4,7 @@ import HomePage from './pages/HomePage'
 import GemsPage from './pages/GemsPage'
 import MenuPage from './pages/MenuPage'
 import ClubHubPage from './pages/ClubHubPage'
+import UkulelePage from './pages/UkulelePage'
 
 function App() {
   const [page, setPage] = useState('home');
@@ -29,7 +30,8 @@ function App() {
 
         { page === 'clubhub' && <ClubHubPage setPage={setPage}/> }
 
-        
+        { page === 'ukulele' && <UkulelePage setPage={setPage}/> }
+
         { page === 'home' && <HomePage setPage={setPage} filter={filter} setFilter={setFilter}/> }
       </div>
     </div>

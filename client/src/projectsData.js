@@ -1,5 +1,7 @@
 import gems from './assets/gems.png'
 import clubhub from './assets/clubhub.png'
+import ukulele from './assets/ukulele.png'
+import eyemech from './assets/eyemech.png'
 
 const projects = [
     {
@@ -18,16 +20,16 @@ const projects = [
         description:
           "animatronics // react.js, node.js, postgresql",
         image:
-          gems
+          eyemech
     },
     {
         title: "Ukulele",
         page: 'ukulele',
         category: 'hardware',
         description:
-          "full stack // react.js, node.js, postgresql",
+          "hardware // c, raspberry pi",
         image:
-          gems
+          ukulele
     },
     {
         title: "Croptails",
