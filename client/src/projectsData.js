@@ -27,15 +27,15 @@ const projects = [
       image:
         ukulele
     },
-    {
-        title: "Eye Mech",
-        page: 'eyemech',
-        category: 'hardware',
-        description:
-          "animatronics // react.js, node.js, postgresql",
-        image:
-          eyemech
-    },
+    // {
+    //     title: "Eye Mech",
+    //     page: 'eyemech',
+    //     category: 'hardware',
+    //     description:
+    //       "animatronics // react.js, node.js, postgresql",
+    //     image:
+    //       eyemech
+    // },
     {
         title: "Croptails",
         page: 'croptails',
@@ -56,10 +56,10 @@ const projects = [
     },
     {
         title: "Portfolio",
-        page: 'portfolio',
+        page: 'home',
         category: 'fullstack',
         description:
-          "frontend // react.js, tailwindcss, vite",
+          "frontend (this website!) // react.js, vite",
         image:
           portfolio
     },
