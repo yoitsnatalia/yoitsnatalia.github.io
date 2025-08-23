@@ -5,6 +5,8 @@ import eyemech from './assets/eyemech.png'
 import lifeisgood from './assets/lifeisgood.png'
 import automata from './assets/automata.png'
 import croptails from './assets/croptails.png'
+import portfolio from './assets/portfolio.png'
+
 
 const projects = [
     {
@@ -17,6 +19,15 @@ const projects = [
         gems
     },
     {
+      title: "Ukulele",
+      page: 'ukulele',
+      category: 'hardware',
+      description:
+        "hardware // c, raspberry pi",
+      image:
+        ukulele
+    },
+    {
         title: "Eye Mech",
         page: 'eyemech',
         category: 'hardware',
@@ -24,15 +35,6 @@ const projects = [
           "animatronics // react.js, node.js, postgresql",
         image:
           eyemech
-    },
-    {
-        title: "Ukulele",
-        page: 'ukulele',
-        category: 'hardware',
-        description:
-          "hardware // c, raspberry pi",
-        image:
-          ukulele
     },
     {
         title: "Croptails",
@@ -59,7 +61,7 @@ const projects = [
         description:
           "frontend // react.js, tailwindcss, vite",
         image:
-          gems
+          portfolio
     },
     {
       title: "ClubHub",
