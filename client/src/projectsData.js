@@ -3,6 +3,7 @@ import clubhub from './assets/clubhub.png'
 import ukulele from './assets/ukulele.png'
 import eyemech from './assets/eyemech.png'
 import lifeisgood from './assets/lifeisgood.png'
+import automata from './assets/automata.png'
 
 const projects = [
     {
@@ -44,7 +45,7 @@ const projects = [
     {
         title: "Life is Good",
         page: 'lifeisgood',
-        category: 'design',
+        category: 'gamedev',
         description:
           "game design // figma",
         image:
@@ -55,16 +56,7 @@ const projects = [
         page: 'portfolio',
         category: 'frontend',
         description:
-          "full stack // react.js, node.js, postgresql",
-        image:
-          gems
-    },
-    {
-        title: "Portfoliov1",
-        page: 'portfoliov1',
-        category: 'frontend',
-        description:
-          "full stack // react.js, node.js, postgresql",
+          "frontend // react.js, tailwindcss, vite",
         image:
           gems
     },
@@ -82,9 +74,9 @@ const projects = [
         page: 'automata',
         category: 'design',
         description:
-          "full stack // react.js, node.js, postgresql",
+          "mechanism design // foamboard, rubberbands",
         image:
-          gems
+          automata
     },
   ];
   
