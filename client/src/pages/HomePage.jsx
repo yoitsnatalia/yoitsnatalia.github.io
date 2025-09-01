@@ -30,7 +30,7 @@ export default function HomePage({setPage, filter, setFilter}) {
                   </li>
               ))}
               <h3>::</h3>
-              <li className="hover:text-gray-300 cursor-pointer"><a href="https://docs.google.com/document/d/1L5rAidN643hqVp2lIfjJgqgKjx3iP93m-bVBR-K6_bE/edit?usp=sharing" target="_blank">resume</a></li>
+              <li className="hover:text-gray-300 cursor-pointer"><a href="https://docs.google.com/document/d/1Meq_4VxMpyibEi2lLOOC8ceLKuCm2Ywi/edit?usp=sharing&ouid=112917581178349290789&rtpof=true&sd=true" target="_blank">resume</a></li>
               <li className="hover:text-gray-300 cursor-pointer"><a href="https://www.linkedin.com/in/natalia-linn/" target="_blank">linkedin</a></li>
               <li className="hover:text-gray-300 cursor-pointer"><a href="https://github.com/yoitsnatalia" target="_blank">github</a></li>
             </ul>
