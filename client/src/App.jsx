@@ -8,6 +8,8 @@ import UkulelePage from './pages/UkulelePage'
 import LifeIsGoodPage from './pages/LifeIsGoodPage'
 import AutomataPage from './pages/AutomataPage'
 import CroptailsPage from './pages/CroptailsPage'
+import EyeMechPage from './pages/EyeMechPage'
+
 
 function App() {
   const [page, setPage] = useState('home');
@@ -40,6 +42,8 @@ function App() {
         { page === 'automata' && <AutomataPage setPage={setPage}/> }
 
         { page === 'ukulele' && <UkulelePage setPage={setPage}/> }
+        
+        { page === 'eyemech' && <EyeMechPage setPage={setPage}/> }
 
         { page === 'home' && <HomePage setPage={setPage} filter={filter} setFilter={setFilter}/> }
       </div>

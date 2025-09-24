@@ -1,7 +1,7 @@
 import gems from './assets/gems.png'
 import clubhub from './assets/clubhub.png'
 import ukulele from './assets/ukulele.png'
-import eyemech from './assets/eyemech.png'
+import eyemech from './assets/eyemech.jpeg'
 import lifeisgood from './assets/lifeisgood.png'
 import automata from './assets/automata.png'
 import croptails from './assets/croptails.png'
@@ -19,6 +19,15 @@ const projects = [
         gems
     },
     {
+      title: "Eye Mech",
+      page: 'eyemech',
+      category: 'hardware',
+      description:
+        "animatronics // robotics, 3d printing, micropython",
+      image:
+        eyemech
+    },
+    {
       title: "Ukulele",
       page: 'ukulele',
       category: 'hardware',
@@ -27,15 +36,6 @@ const projects = [
       image:
         ukulele
     },
-    // {
-    //     title: "Eye Mech",
-    //     page: 'eyemech',
-    //     category: 'hardware',
-    //     description:
-    //       "animatronics // react.js, node.js, postgresql",
-    //     image:
-    //       eyemech
-    // },
     {
         title: "Croptails",
         page: 'croptails',
